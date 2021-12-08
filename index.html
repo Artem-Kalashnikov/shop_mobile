@@ -16,17 +16,25 @@
   <body>
     <div class="relative__block">
       <ul class="mobile__menu d-flex align-items-end justify-content-between">
-        <li class="search"></li>
-        <li>
-          <a href="#menu"> <div class="menu"></div></a>
+        <li class="mobile__menu--item d-flex flex-column align-items-center">
+          <img src="./img/ic-search.svg" alt="" />Поиск
         </li>
-        <li class="shop"></li>
-        <li class="profile"></li>
+        <li class="mobile__menu--item">
+          <a href="#modal" class="d-flex flex-column align-items-center"
+            ><img src="./img/ic-menu.svg" alt="" />Меню</a
+          >
+        </li>
+        <li class="mobile__menu--item d-flex flex-column align-items-center">
+          <img src="./img/ic-basket.svg" alt="" />Корзина
+        </li>
+        <li class="mobile__menu--item d-flex flex-column align-items-center">
+          <img src="./img/ic-user.svg" alt="" />Войти
+        </li>
       </ul>
     </div>
 
-    <div id="menu" data-target="menu">
-      <div class="menu-info">
+    <div id="modal">
+      <div class="menu-info d-flex flex-column align-items-start">
         <button type="button" class="close">
           <a href="#"><img src="./img/cancel.png" alt="" /></a>
         </button>
