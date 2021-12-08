@@ -189,4 +189,10 @@ ul {
   width: 280px;
   margin-top: 25px;
   height: 60px;
+  transition: 0.2s;
+}
+
+.menu__footer--btn:hover {
+  background-color: #cd11ab;
+  color: #fff;
 }
